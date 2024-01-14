@@ -6,7 +6,7 @@ int main()
 
     //Start a for-loop(outer loop)
     //Loop starting from 1,decreasing by 1,until 3
-    for(num1 = 1; num1 == 3; num1++)
+    for(num1 = 1; num1 <= 3; num1++)
     {
 
         //Print '1st'
@@ -14,7 +14,7 @@ int main()
 
         //Start the second for-loop(middle loop)
         //Loop starting from 1,decreasing by 1,until 4
-        for(num2 = 1; num2 == 4; num2++)
+        for(num2 = 1; num2 <= 4; num2++)
         {
 
             //Print '2nd'
@@ -22,7 +22,7 @@ int main()
 
             //Start the third for-loop(inner loop)
             //Loop starting from 1,decreasing by 1,until 5
-            for(num3 = 1; num3 == 5; num3++)
+            for(num3 = 1; num3 <= 5; num3++)
             {
 
                 //Print 'Third'
