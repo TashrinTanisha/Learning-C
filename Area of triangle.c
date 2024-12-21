@@ -1,15 +1,17 @@
 #include<stdio.h>
 int main()
 {
-   float base,height,area;
+    int base, height, area;
 
-   printf("Enter base & height : ");
-   scanf("%f %f",&base,&height);
+    printf("Enter base : ");
+    scanf("%d", &base);
 
-   area = 0.5 * base * height;
+    printf("Enter height : ");
+    scanf("%d", &height);
 
-   printf("Area of triangle : %f",area);    
+    area = 0.5 * base * height ;
 
-   return 0;
+    printf("The area is : %d", area) ;
 
+    return 0;
 }
